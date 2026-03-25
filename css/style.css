@@ -943,14 +943,17 @@ select {
 }
 
 .benefits-box {
-  width: 1300px;
-  justify-self: center;
-  display: grid;
-  grid-template-columns: 290px 1fr;
-  background: #ececec;
-  border-radius: 24px;
-  overflow: hidden;
-  border: 1px solid var(--line);
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 290px minmax(0, 1fr);
+    background: #ececec;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    box-sizing: border-box;
+    margin-top: 5rem;
 }
 
 .section-heading.left .redBenefits{
@@ -968,7 +971,7 @@ select {
 }
 
 .benefits-side-art {
-  height: 600px;
+  height: 650px;
   width: 420px; 
   min-height: 320px;
   background:
@@ -1624,6 +1627,83 @@ select {
 
   .about-image-wrapper{
     margin-left: 15rem;
+  }
+
+  .benefits-box{
+    height: 700px;
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 290px minmax(0, 1fr);
+    background: #ececec;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    box-sizing: border-box;
+    margin-top: 5rem;
+  }
+
+  .logo3{
+    width: 250px;
+    margin-top: -18rem;
+  }
+
+  .image5{
+    margin-inline-start: auto;
+    width: 750px;
+    max-width: 750px;
+    margin-top: -20rem;
+    z-index: 3;
+  }
+
+  .benefit-item{
+    gap: 20px;
+  }
+
+  .benefits-side-art{
+    height: 750px;
+    width: 500px;
+    min-height: 320px;
+    background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.16), transparent 38%), linear-gradient(180deg, #578FCB 0%, #1C2544 100%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .benefits-list{
+    margin-top: -3rem;
+    width: 1270px;
+    margin-left: 22rem;
+    padding: 34px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px 35px;
+    align-content: center;
+    padding-top: 0;
+    height: auto;
+  }
+
+  .benefits-list .benefit-item span{
+    color: #7f7f7f;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .verification{
+    width: 60px;
+  }
+
+  .benefits-side-art{
+    height: 750px;
+    width: 500px;
+    min-height: 320px;
+    background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.16), transparent 38%), linear-gradient(180deg, #578FCB 0%, #1C2544 100%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
