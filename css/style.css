@@ -1702,6 +1702,7 @@ select {
   }
 
   .nav{
+    gap: 60px;
     margin-left: 0;
   }
 
