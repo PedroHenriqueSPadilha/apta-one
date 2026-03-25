@@ -2146,21 +2146,23 @@ select {
 
   .contact-form{
     margin-top: -20em;
+    width: 95%;
+    margin-left: 3.5rem;
   }
 
   .contact-links{
-    display: grid;
-    gap: 10px;
-    margin-bottom: 18px;
-    margin-left: -50rem;
-    margin-right: 5rem;
-    margin-top: 20rem;
+      display: grid;
+      gap: 10px;
+      margin-bottom: 18px;
+      margin-left: -53rem;
+      margin-right: 10rem;
+      margin-top: 20rem;
   }
 
   .socials{
     display: flex;
     gap: 35px;
-    margin-right: 10rem;
+    margin-right: 15rem;
     margin-left: -1rem;
     margin-top: 17rem;
   }
@@ -2564,11 +2566,11 @@ select {
   }
 
   .fornecedor{
-    left: 42%;
+    left: 36%;
   }
 
   .manufatura{
-    left: 81%;
+    left: 70%;
   }
 
   .consumidor{
@@ -2576,11 +2578,32 @@ select {
   }
 
   .cliente{
-    left: 45%;
+    left: 39%;
   }
 
   .distribuicao{
-    left: 81%;
+    left: 69%;
+  }
+
+  .contact-grid{
+     margin-top: 10rem;
+  }
+
+  .contact-form{
+    width: 90%;
+    display: grid;
+    gap: 12px;
+    margin-top: -30rem;
+  }
+
+  .cards-3{
+    margin-left: 0rem;
+  }
+
+  .btn-accent{
+    margin-top: -1rem;
+    margin-left: 0rem;
+    width: 180px;
   }
 
   .card-body::after {
@@ -2598,6 +2621,48 @@ select {
   .service-card ul li{
     font-size: 1rem;
     width: 280px;
+  }
+
+  .calc-result-box p{
+    font-size: 0.8rem;
+    width: 150px;
+  }
+
+  .disclaimer{
+    width: 1300px;
+    place-self: center;
+  }
+
+  .calculator-box{
+    margin-left: 0rem; 
+    width: 88rem;
+  }
+
+  .calc-grid{
+    gap: 30px;
+    margin-left: 0rem;
+  }
+
+  .lead-card{
+    height: 600px;
+    margin-top: 7rem;
+  }
+
+  .slider-arrow.next (JA EXISTE){
+    right: 80px;
+    margin-top: -1rem;
+  }
+
+  .socials{
+    margin-top: 27rem;
+    margin-left: 2rem;
+    margin-right: 10rem;
+  }
+
+  .contact-links{
+    margin-top: 30rem;
+    margin-left: -56rem;
+    margin-right: 1rem;
   }
 }
 
