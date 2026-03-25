@@ -1662,7 +1662,6 @@ select {
   width: 60px;
 }
 
-@media (min-width: 1540px) and (max-width: 1751px) {
 @media (min-width: 2560px) {
   .lang-btn img{
     width: 65px;
