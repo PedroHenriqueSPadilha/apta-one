@@ -1641,12 +1641,12 @@ select {
 
 .benefits-list{
   margin-top: -3rem;
-  width: 1270px;
-  margin-left: 22rem;
+  width: 1250px;
+  margin-left: 21rem;
   padding: 34px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 35px 35px;
+  gap: 35px 20px;
   align-content: center;
   padding-top: 0;
   height: auto;
