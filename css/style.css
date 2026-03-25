@@ -2132,6 +2132,7 @@ select {
 
   .benefits-box{
     width: 100%;
+    height: auto;
     max-width: 1400px;
     margin: 0 auto;
     display: grid;
@@ -2170,8 +2171,8 @@ select {
   .image5{
     margin-inline-start: auto;
     width: 650px;
-    max-width: 600px;
-    margin-top: -13.8rem;
+    max-width: 650px;
+    margin-top: -15rem;
     z-index: 3;
   }
 
