@@ -1427,6 +1427,7 @@ select {
 }
 
 .contact-form {
+  width: 80%;
   display: grid;
   gap: 12px;
   margin-top: -30rem;
