@@ -2603,7 +2603,7 @@ select {
   .btn-accent{
     margin-top: -1rem;
     margin-left: 0rem;
-    width: 180px;
+    width: 200px;
   }
 
   .card-body::after {
@@ -2638,9 +2638,17 @@ select {
     width: 88rem;
   }
 
+  .calc-result-box{
+    margin-left: -16rem;
+  }
+
+  .logo4{
+    margin-right: 0rem;
+  }
+
   .calc-grid{
     gap: 30px;
-    margin-left: 0rem;
+    margin-left: -2rem;
   }
 
   .lead-card{
@@ -2648,7 +2656,7 @@ select {
     margin-top: 7rem;
   }
 
-  .slider-arrow.next (JA EXISTE){
+  .slider-arrow.next{
     right: 80px;
     margin-top: -1rem;
   }
