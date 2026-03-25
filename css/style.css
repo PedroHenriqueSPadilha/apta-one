@@ -1936,7 +1936,7 @@ select {
   }
 
   .hero-text h1{
-    width: 1000px;
+    width: 600px;
     font-size: 3rem;
     line-height: 1.3;
     font-weight: 600;
@@ -1958,12 +1958,6 @@ select {
     background-size: cover;
     background-position: center;
   }
-
-  
-  .hero-text h1 {
-    width: 700px;
-  }
-
 
   .hero-main-image{
     width: 800px;
