@@ -2543,6 +2543,7 @@ select {
 
   .slider-arrow.next{
     right: 80px;
+    margin-top: -1.5rem;
   }
 
   .slider-dots{
@@ -2550,7 +2551,7 @@ select {
   }
 
   .platform-slider{
-    margin-right: -8rem;
+    margin-right: -2.5rem;
   }
 
   .icones{
@@ -2654,11 +2655,6 @@ select {
   .lead-card{
     height: 600px;
     margin-top: 7rem;
-  }
-
-  .slider-arrow.next{
-    right: 80px;
-    margin-top: -1rem;
   }
 
   .socials{
