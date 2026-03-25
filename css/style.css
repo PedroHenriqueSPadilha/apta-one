@@ -1774,7 +1774,7 @@ select {
   .image6{
     width: 2000px;
     max-width: 149rem;
-    margin-left: 5rem;
+    place-self: start;
     margin-top: -17rem;
   }
 
