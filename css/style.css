@@ -2121,8 +2121,10 @@ select {
   }
 
   .benefits-list{
-    width: 800px;
-    margin-left: 13rem;
+    margin-top: 1rem;
+    width: 860px;
+    margin-top: 1rem;
+    margin-left: 15rem;
     padding: 34px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -2150,16 +2152,16 @@ select {
   }
 
   .verification{
-    width: 50px;
+    width: 45px;
   }
 
   .benefits-list .benefit-item span{
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .benefits-side-art{
     height: 650px;
-    width: 420px;
+    width: 470px;
     min-height: 320px;
     background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.16), transparent 38%), linear-gradient(180deg, #578FCB 0%, #1C2544 100%);
     position: relative;
@@ -2621,7 +2623,20 @@ select {
   .image3{
     margin-top: -10rem;
   }
-  
+
+  .benefits-list{
+    width: 800px;
+    margin-left: 15rem;
+    padding: 34px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 16px;
+    align-content: center;
+  }
+
+  .benefits-list .benefit-item span{
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 1536px) {
