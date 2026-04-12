@@ -1,1 +1,2 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
 video/LO1_Vídeo[[:space:]]Institucional_APTA[[:space:]]ONE_2.mp4 filter=lfs diff=lfs merge=lfs -text
