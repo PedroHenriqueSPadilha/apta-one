@@ -1815,6 +1815,22 @@ select {
   }
 }
 
+@media (max-width: 2552px){
+  .image6{
+    margin-left: 18.5rem;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-self: anchor-center;
+    margin-top: -20rem;
+    max-width: 2850px;
+  }
+
+  .footer-text{
+    margin-left: -7rem;
+  }
+}
+
 @media (max-width: 2512px) {
   .about-image{
     margin-left: 0rem;
