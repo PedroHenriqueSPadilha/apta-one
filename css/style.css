@@ -4084,6 +4084,10 @@ select {
   .site-footer p {
     margin-top: 1rem;
   }
+
+  .data-table td {
+    font-size: 5px;
+  }
 }
 
 @media (max-width: 393px) {
@@ -4102,7 +4106,7 @@ select {
   .contact-form{
     width: 270px;
     margin-top: 0;
-    margin-left: -1rem;
+    margin-left: -1.6rem;
   }
   
   .socials {
@@ -4118,6 +4122,23 @@ select {
     margin-right: -20rem;
     display: grid;
     gap: 10px;
-    margin-left: -47rem;
+    margin-left: -46.5rem;
+  }
+
+  .platform-text {
+    width: 340px;
+  }
+
+  .slider-arrow.next {
+    margin-top: -1.8rem;
+    right: 3.5rem;
+  }
+
+  .benefits-box {
+    margin-top: 2rem;
+  }
+
+  .slider-frame {
+    width: 330px;
   }
 }
