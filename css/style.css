@@ -527,7 +527,6 @@ select {
 /* vídeo ocupa toda a área */
 .about-video {
   width: 100%;
-  height: 1080px; /* mesma altura do wrapper */
   display: block;
   object-fit: cover; /* evita ficar achatado */
   cursor: pointer;
@@ -3363,7 +3362,7 @@ select {
   }
 
   .image4{
-    margin-top: -9.25rem;
+    margin-top: -7.293rem;
   }
 
   .platform-grid {
@@ -3741,22 +3740,21 @@ select {
 
   .section-heading,
   .section-heading.left {
-    margin-top: 3rem !important;
+    margin-top: 2rem !important;
   }
 
   .about-video-wrapper {
     width: 100%;
-    max-width: 100%;
     margin-top: 1rem;
     position: relative;
     overflow: hidden;
-    border-radius: 12px;
     background: #000;
+    min-height: 270px;
   }
 
   .about-video{
     width: 100%;
-    height: 420px;
+    height: 270px;
     display: block;
     object-fit: cover;
     cursor: pointer;
@@ -4027,7 +4025,7 @@ select {
   }
 
   .contact-links span {
-    font-size: 0.7rem;
+    font-size: 1.4rem;
   }
 
   .contact-links p {
@@ -4036,7 +4034,7 @@ select {
 
   .socials {
     margin-right: -2rem;
-    margin-top: 40rem;
+    margin-top: 46rem;
     width: 180px;
     gap: 10px;
     margin-left: 10rem;
@@ -4044,10 +4042,10 @@ select {
 
   .contact-links{
     margin-top: 40rem;
-    margin-right: -6rem;
+    margin-right: -20rem;
     display: grid;
     gap: 10px;
-    margin-left: -50rem;
+    margin-left: -48rem;
   }
 
   .socials a {
@@ -4084,5 +4082,33 @@ select {
 
   .site-footer p {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .section.contact .contact-info{
+    margin-left: -7rem;
+  }
+  
+  .contact-form{
+    width: 300px;
+    margin-top: 0;
+    margin-left: -1rem;
+  }
+  
+  .socials {
+    margin-right: -2rem;
+    margin-top: 46rem;
+    width: 180px;
+    gap: 10px;
+    margin-left: 10rem;
+  }
+
+  .contact-links{
+    margin-top: 40rem;
+    margin-right: -20rem;
+    display: grid;
+    gap: 10px;
+    margin-left: -48rem;
   }
 }
