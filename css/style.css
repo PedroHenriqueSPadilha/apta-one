@@ -3854,7 +3854,7 @@ select {
   }
 
   .contact-form{
-    width: 300px;
+    width: 270px;
     margin-top: 0;
     margin-left: -1rem;
   }
@@ -4086,17 +4086,7 @@ select {
   }
 }
 
-@media (max-width: 390px) {
-  .contact-links{
-    margin-left: -47rem;
-  }
-
-  .contact-form{
-    margin-left: -1.5rem;
-  }
-}
-
-@media (max-width: 390px) {
+@media (max-width: 393px) {
   .about-video-wrapper{
     min-height: 210px;
   }
@@ -4110,7 +4100,7 @@ select {
   }
   
   .contact-form{
-    width: 300px;
+    width: 270px;
     margin-top: 0;
     margin-left: -2rem;
   }
