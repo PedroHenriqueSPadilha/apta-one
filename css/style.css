@@ -4087,6 +4087,16 @@ select {
 }
 
 @media (max-width: 390px) {
+  .contact-links{
+    margin-left: -47rem;
+  }
+
+  .contact-form{
+    margin-left: -1.5rem;
+  }
+}
+
+@media (max-width: 390px) {
   .about-video-wrapper{
     min-height: 210px;
   }
