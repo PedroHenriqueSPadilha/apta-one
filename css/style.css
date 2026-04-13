@@ -980,6 +980,7 @@ select {
 .slider-arrow.next {
   right: -60px;
   transform: rotate(180deg);
+  top: 47%;
 }
 
 .slider-dots {
@@ -3841,7 +3842,7 @@ select {
   }
 
   .slider-arrow.next{
-    margin-top: -1.5rem;
+    margin-top: -1rem;
   }
 
   .cards-3 {
@@ -4084,10 +4085,6 @@ select {
   .site-footer p {
     margin-top: 1rem;
   }
-
-  .data-table td {
-    font-size: 5px;
-  }
 }
 
 @media (max-width: 393px) {
@@ -4130,8 +4127,7 @@ select {
   }
 
   .slider-arrow.next {
-    margin-top: -1.8rem;
-    right: 3.5rem;
+    margin-top: -1.7rem;
   }
 
   .benefits-box {
