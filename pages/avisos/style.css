@@ -270,4 +270,14 @@ body {
     top: 2rem;
   }
 
+  .data-table th, .data-table td {
+    font-size: 8px;
+  }
+
+}
+
+@media (max-width: 393px){
+  .data-table th, .data-table td {
+    font-size: 5px;
+  }
 }
